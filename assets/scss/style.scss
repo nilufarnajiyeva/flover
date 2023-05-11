@@ -1,0 +1,163 @@
+// nav{
+//     display: flex;
+//     justify-content: space-between;
+//     width: 80%;
+//     margin: 0 10%;
+// }
+
+
+// ul{
+//     display: flex;
+   
+//     li{
+//         list-style: none;
+//         padding-left: 7px;
+//         a{
+//             text-decoration: none;
+//             color: black;
+
+//         }
+//     }
+// }
+// .Cactuses{
+//     display: flex;
+//     justify-content: space-around;
+//     .kaktus{
+//    width: 300px ;
+//    height: 400px;
+//    padding-left: 10px;
+//    margin-top: 15px;
+//     }
+// }
+// .Exotic{
+//     display: flex;
+//     justify-content: space-around;
+//     .exotic{
+//         width: 300px ;
+//         height:400px;
+//         padding-left: 10px;
+//         margin-top: 15px;
+//     }
+// }
+// .Greens{
+//     display: flex;
+//     justify-content: space-around;
+//     .greens{
+//         width: 300px ;
+//         height: 400px;
+//         padding-left: 10px;
+//         margin-top: 15px;
+//     }
+// }
+// .Popular{
+//     display: flex;
+//     justify-content: space-around;
+//     .popular{
+//         width: 300px ;
+//         height: 400px;
+//         padding-left: 10px;
+//         margin-top: 15px;
+//     }
+// }
+// .Various{
+//     display: flex;
+//     justify-content: space-around;
+//     .various{
+//         width: 300px ;
+//         height: 400px;
+//         padding-left: 10px;
+//         margin-top: 15px;
+//     }
+// }
+// .Winter{
+//     display: flex;
+//     justify-content: space-around;
+//     .winter{
+//         width: 300px ;
+//         height: 400px;
+//         padding-left: 10px;
+//         margin-top: 15px;
+//     }
+ 
+//     }
+//     .All{
+//         width: 100% ;
+     
+//     }
+// .sold{
+ 
+//     width: 60px;
+//     height: 20px;
+//     border: 1px solid black;
+//     padding: 5px;
+//     color: white;
+//     background-color: black;
+
+
+
+
+// }
+// .pos{
+//     .kaktus{
+//         width: 300px ;
+//         height: 400px;
+//         padding-left: 10px;
+//         margin-top: 15px;
+
+//     }
+
+// }
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+    background-color: lightgray;
+}
+.All{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0 5%;
+  
+  }
+  .photo{
+   margin: 10px;
+   width: 23%;
+   position: relative;
+   img{
+    width: 300px;
+    height: 400px;
+    padding-left: 25px;
+   }
+   .text{
+    text-align: center;
+    p{
+        margin-top: 5px;
+    }
+   }
+   
+  }
+  .gelguzelim{
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 10px;
+    left: 37px;
+  }
+nav{
+  ul{
+    display: flex;
+    margin-left: 250px;
+    li{
+      padding-left: 10px;
+      list-style: none;
+    }
+  }
+}

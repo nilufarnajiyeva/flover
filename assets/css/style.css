@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lightgray;
+}
+
+.All {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: 0 5%;
+}
+
+.photo {
+  margin: 10px;
+  width: 23%;
+  position: relative;
+}
+.photo img {
+  width: 300px;
+  height: 400px;
+  padding-left: 25px;
+}
+.photo .text {
+  text-align: center;
+}
+.photo .text p {
+  margin-top: 5px;
+}
+
+.gelguzelim {
+  position: absolute;
+  width: 60px;
+  height: 30px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 10px;
+  left: 37px;
+}
+
+nav ul {
+  display: flex;
+  margin-left: 250px;
+}
+nav ul li {
+  padding-left: 10px;
+  list-style: none;
+}
